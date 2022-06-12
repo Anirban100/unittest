@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8924f95a87dbc1101a8ffcc5dabb353f" sys_domain="global" table="x_10740_unit_tes_0_product_coverage" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-08 17:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4124f95a87dbc1101a8ffcc5dabb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_coverage" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">8924f95a87dbc1101a8ffcc5dabb353f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">e5ceead8871b01101a8ffcc5dabb3569</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-08 17:20:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-08 17:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d24f95a87dbc1101a8ffcc5dabb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_coverage" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">8924f95a87dbc1101a8ffcc5dabb353f</sys_ui_form>
+            <sys_ui_section caption="Coverage Details" display_value="Coverage Details" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">0124f95a87dbc1101a8ffcc5dabb353d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-08 17:20:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-08 17:21:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0954bd5a87dbc1101a8ffcc5dabb359b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_coverage" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">8924f95a87dbc1101a8ffcc5dabb353f</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_10740_unit_tes_0_product_coverage" sys_domain="global" view="Default view">0d54bd5a87dbc1101a8ffcc5dabb3598</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-08 17:21:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_10740_unit_tes_0_product_coverage</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-08 17:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8924f95a87dbc1101a8ffcc5dabb353f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_10740_unit_tes_0_product_coverage</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8924f95a87dbc1101a8ffcc5dabb353f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-08 17:20:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

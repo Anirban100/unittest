@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a6be54188727c9101a8ffcc5dabb3516" sys_domain="global" table="x_10740_unit_tes_0_product_stream" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-14 16:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6abe54188727c9101a8ffcc5dabb3519</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_stream" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">a6be54188727c9101a8ffcc5dabb3516</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">0130773d87d381101a8ffcc5dabb358c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-14 16:15:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-14 16:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26be54188727c9101a8ffcc5dabb351a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_stream" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">a6be54188727c9101a8ffcc5dabb3516</sys_ui_form>
+            <sys_ui_section caption="Coverage Details" display_value="Coverage Details" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">eebe14188727c9101a8ffcc5dabb35a3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-14 16:15:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-14 16:16:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bee18188727c9101a8ffcc5dabb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_stream" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">a6be54188727c9101a8ffcc5dabb3516</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">7fee18188727c9101a8ffcc5dabb3509</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-14 16:16:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-15 08:54:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f438ca887a30d101a8ffcc5dabb35bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_10740_unit_tes_0_product_stream" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">a6be54188727c9101a8ffcc5dabb3516</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_10740_unit_tes_0_product_stream" sys_domain="global" view="Default view">73438ca887a30d101a8ffcc5dabb35b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-15 08:54:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_10740_unit_tes_0_product_stream</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-14 16:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6be54188727c9101a8ffcc5dabb3516</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_10740_unit_tes_0_product_stream</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a6be54188727c9101a8ffcc5dabb3516</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-14 16:15:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

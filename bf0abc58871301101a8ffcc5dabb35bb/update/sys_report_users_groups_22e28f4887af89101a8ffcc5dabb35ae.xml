@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Method Coverage Per Product">9ae28f4887af89101a8ffcc5dabb35ad</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-14 09:34:26</sys_created_on>
+        <sys_id>22e28f4887af89101a8ffcc5dabb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9ae28f4887af89101a8ffcc5dabb35ad</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_report_users_groups_22e28f4887af89101a8ffcc5dabb35ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-14 09:34:26</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>

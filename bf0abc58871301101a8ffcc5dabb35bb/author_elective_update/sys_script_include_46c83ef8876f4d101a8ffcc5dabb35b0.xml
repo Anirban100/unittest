@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_10740_unit_tes_0.BulkAddChangeRequestTester</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>THIS IS A TESTER CLASS FOR TESTING THE ACTUAL SCRIPT INCLUDE CLASS. PLEASE DO NOT DE-ACTIVATE/ DELETE OR RENAME THIS CLASS AND ALWAYS APPEND SUFFIX 'TESTER' FOR EACH TEST METHOD.</description>
+        <name>BulkAddChangeRequestTester</name>
+        <script><![CDATA[var BulkAddChangeRequestTester = Class.create();
+BulkAddChangeRequestTester.prototype = {
+    initialize: function() {
+    },
+
+    type: 'BulkAddChangeRequestTester'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-16 16:45:35</sys_created_on>
+        <sys_id>46c83ef8876f4d101a8ffcc5dabb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BulkAddChangeRequestTester</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_script_include_46c83ef8876f4d101a8ffcc5dabb35b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-16 16:45:35</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</application>
+        <file_path/>
+        <instance_id>1fa49b5adb0f051091232f17d49619c2</instance_id>
+        <instance_name>dev126579</instance_name>
+        <name>sys_script_include_46c83ef8876f4d101a8ffcc5dabb35b0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_10740_unit_tes_0.BulkAddChangeRequestTester&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;THIS IS A TESTER CLASS FOR TESTING THE ACTUAL SCRIPT INCLUDE CLASS. PLEASE DO NOT DE-ACTIVATE/ DELETE OR RENAME THIS CLASS AND ALWAYS APPEND SUFFIX 'TESTER' FOR EACH TEST METHOD.&lt;/description&gt;&lt;name&gt;BulkAddChangeRequestTester&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var BulkAddChangeRequestTester = Class.create();
+BulkAddChangeRequestTester.prototype = {
+    initialize: function() {
+    },
+
+    type: 'BulkAddChangeRequestTester'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-16 16:45:35&lt;/sys_created_on&gt;&lt;sys_id&gt;46c83ef8876f4d101a8ffcc5dabb35b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;BulkAddChangeRequestTester&lt;/sys_name&gt;&lt;sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0"&gt;bf0abc58871301101a8ffcc5dabb35bb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unit Testing and Code Coverag"&gt;bf0abc58871301101a8ffcc5dabb35bb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_46c83ef8876f4d101a8ffcc5dabb35b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-16 16:45:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>855545232</payload_hash>
+        <record_name>BulkAddChangeRequestTester</record_name>
+        <reverted_from/>
+        <source>ff0abc58871301101a8ffcc5dabb35bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-16 16:45:36</sys_created_on>
+        <sys_id>42c83ef8876f4d101a8ffcc5dabb35b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180cdc2c79d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-16 16:45:36</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8ac83ef8ef6f4d10530b1cf2bcd554b2</update_guid>
+        <update_guid_history>8ac83ef8ef6f4d10530b1cf2bcd554b2:855545232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-16 16:45:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7126e64ef22f4e829946045d8af4bf44</sys_id>
+        <sys_metadata>46c83ef8876f4d101a8ffcc5dabb35b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BulkAddChangeRequestTester</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_scope_delete display_value="">e35019b44f714a08a467e8657a713bd9</sys_scope_delete>
+        <sys_update_name>sys_script_include_46c83ef8876f4d101a8ffcc5dabb35b0</sys_update_name>
+        <sys_update_version display_value="sys_script_include_46c83ef8876f4d101a8ffcc5dabb35b0">42c83ef8876f4d101a8ffcc5dabb35b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-16 16:45:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

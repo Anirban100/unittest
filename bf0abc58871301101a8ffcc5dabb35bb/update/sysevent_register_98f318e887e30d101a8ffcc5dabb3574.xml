@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_10740_unit_tes_0.ut_coverage_q</event_name>
+        <fired_by>Calculate Coverage UI action on Product Stream table</fired_by>
+        <queue>unit_test_coverage_queue</queue>
+        <suffix>ut_coverage_q</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-15 10:08:17</sys_created_on>
+        <sys_id>98f318e887e30d101a8ffcc5dabb3574</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_10740_unit_tes_0.ut_coverage_q</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sysevent_register_98f318e887e30d101a8ffcc5dabb3574</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-15 10:24:25</sys_updated_on>
+        <table>x_10740_unit_tes_0_product_stream</table>
+    </sysevent_register>
+</record_update>

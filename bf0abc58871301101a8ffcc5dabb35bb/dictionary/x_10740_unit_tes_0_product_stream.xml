@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Product Stream" max_length="40" name="x_10740_unit_tes_0_product_stream" sizeclass="3" type="collection">
+        <element hint="Configurable classes that can be tested via ATF" label="ATF configurable classes" max_length="80" name="atf_configurable_classes" reference="sys_db_object" reference_qual="nameINsys_script,sys_ui_action,sys_ui_policy,catalog_ui_policy,sys_data_policy2,sys_script_client,catalog_script_client,sys_ui_page,sys_ui_macro,wf_workflow^EQ" reference_qual_condition="nameINsys_script,sys_ui_action,sys_ui_policy,catalog_ui_policy,sys_data_policy2,sys_script_client,catalog_script_client,sys_ui_page,sys_ui_macro,wf_workflow^EQ" type="glide_list"/>
+        <element label="ATF coverage" max_length="15" name="atf_coverage" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2000" name="description" type="string"/>
+        <element display="true" label="Product stream" max_length="100" name="product_stream" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="configure" label="State" max_length="40" name="state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Configure" sequence="0" value="configure"/>
+                <element inactive="true" inactive_on_update="true" label="Review &amp; Publish" sequence="0" value="review_publish"/>
+                <element inactive_on_update="false" label="Pending Review" sequence="1" value="pending_review"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="2" value="reviewed"/>
+                <element inactive_on_update="false" label="Publish Coverage" sequence="3" value="publish_coverage"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Summary" max_length="100" name="summary" type="string"/>
+        <element hint="Core tables included in the product stream" label="Tables included" max_length="4000" name="tables_included" reference="sys_db_object" type="glide_list"/>
+        <element attributes="target_threshold_colors=0:#71e279;1:#F90707;25:#F9B307;50:#F1F907;65:#E6F7B8;80:#E4FE98;100:#BDFF00" label="Total code coverage" max_length="15" name="total_code_coverage" read_only="true" type="percent_complete"/>
+    </element>
+</database>

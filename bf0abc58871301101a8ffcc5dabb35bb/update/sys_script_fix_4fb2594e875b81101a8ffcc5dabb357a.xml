@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Useful Code</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[//--REGEX EXAMPLES
+regExamples();
+
+function regExamples(){
+	var term1 = "abcdee  :         s(";
+var k1 ="abcdee";
+var re1 = new RegExp("abcdee[\\s]*:[\\s]*s[(]");//has abcdee then zero or more occurrences of space then : character then zero or more occurences of space, then ( character ... use '+' instead of '*' to check 1 or more occurences of a character, * checks 0 or more occurences of a character
+
+gs.info(re1.test(term1));
+
+var term = "abcdee :function(";
+var k ="abcdee";
+var re = new RegExp("abcdee[\\s]*:[\\s]*function[(]");
+
+gs.info(re.test(term));
+
+}
+
+//--Utility to fetch methods of a script include
+getScriptIncludeMethods();
+
+function getScriptIncludeMethods(){
+	var a1 = new GlideRecord('sys_script_include');
+a1.get('9fd79c0c877b13005087af1e36cb0b93');
+
+
+var text = "abcd: function(";
+var pattern = /abcd[\s]*?\:[\s]*?function\(/g;
+var result = pattern.test(text);
+
+gs.print(result);
+
+var a = new BulkAddChangeRequest();
+
+for(var itr in a){
+
+if(typeof a[itr]=='function' || 1){
+
+var re = new RegExp(itr+"[\\s]*:[\\s]*function[(]");// example: getURL: function(
+
+gs.info(itr + ' -- '+re.test(a1.script));
+
+}
+}
+}
+
+//-- Utility to call a script include dynamically
+
+callScrIncDynamically();
+function callScrIncDynamically(){
+var scriptIncObj = global.JSUtil.getGlobal()[current.name];
+
+ var scriptInstance = new scriptIncObj();
+
+	
+gs.info('AR_ starts 1 '+scriptInstance.getURL());	
+	
+for(var itr in scriptInstance){
+
+if(typeof scriptInstance[itr]=='function'){
+
+var re = new RegExp(itr+"[\\s]*:[\\s]*function[(]");// example: 'getURL: function(' method of 'new BulkAddChangeRequest()' script include
+
+gs.info('AR_ '+itr + ' -- '+re.test(current.script));
+
+}
+}
+}
+
+//--Call scripts using GlideScopedEvaluator
+/*
+https://developer.servicenow.com/dev.do#!/reference/api/quebec/server/r_ScopedGlideEvaluatorGetVariable_String
+https://www.youtube.com/watch?v=9ifArzAI0BU
+*/]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-07 20:17:21</sys_created_on>
+        <sys_id>4fb2594e875b81101a8ffcc5dabb357a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Useful Code</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_script_fix_4fb2594e875b81101a8ffcc5dabb357a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-07 23:02:47</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

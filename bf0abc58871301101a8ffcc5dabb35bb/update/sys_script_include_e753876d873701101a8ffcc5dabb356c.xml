@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_10740_unit_tes_0.checkScriptTester</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>THIS IS A TESTER CLASS FOR TESTING THE ACTUAL SCRIPT INCLUDE CLASS. PLEASE DO NOT DE-ACTIVATE/ DELETE OR RENAME THIS CLASS AND ALWAYS APPEND SUFFIX 'TESTER' FOR EACH TEST METHOD.</description>
+        <name>checkScriptTester</name>
+        <script><![CDATA[var checkScriptTester = Class.create();
+checkScriptTester.prototype = {
+    initialize: function() {
+    },
+
+aTester: function() {
+    },
+
+a1Tester: function() {
+    },
+
+    type: 'checkScriptTester'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 11:42:59</sys_created_on>
+        <sys_id>e753876d873701101a8ffcc5dabb356c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkScriptTester</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_script_include_e753876d873701101a8ffcc5dabb356c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 11:42:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

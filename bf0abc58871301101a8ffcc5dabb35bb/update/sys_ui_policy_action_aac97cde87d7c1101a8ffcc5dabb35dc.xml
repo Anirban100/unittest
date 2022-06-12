@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>atf_tester_class</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-08 13:07:40</sys_created_on>
+        <sys_id>aac97cde87d7c1101a8ffcc5dabb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>atf_tester_class</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_aac97cde87d7c1101a8ffcc5dabb35dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-08 13:07:40</sys_updated_on>
+        <table>x_10740_unit_tes_0_product_coverage</table>
+        <ui_policy display_value="Unit test policies">e599b8de87d7c1101a8ffcc5dabb35b7</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

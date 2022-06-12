@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="atf_coverage" label="ATF coverage" language="en" table="x_10740_unit_tes_0_product_stream">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>atf_coverage</element>
+            <help/>
+            <hint/>
+            <label>ATF coverage</label>
+            <language>en</language>
+            <name>x_10740_unit_tes_0_product_stream</name>
+            <plural>ATF coverages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-13 17:55:04</sys_created_on>
+            <sys_id>eeeb2fff871389101a8ffcc5dabb35d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ATF coverage</sys_name>
+            <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+            <sys_update_name>sys_documentation_x_10740_unit_tes_0_product_stream_atf_coverage_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-13 17:55:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

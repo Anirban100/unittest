@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow create for summary in x_10740_unit_tes_0_product_coverage, if the ACL script returns true.</description>
+        <name>x_10740_unit_tes_0_product_coverage.summary</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[answer = new global.UnitTestCoverageManager().canCreateUTCRecord(current);]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-17 08:34:56</sys_created_on>
+        <sys_id>d012d681876301101a8ffcc5dabb350a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_10740_unit_tes_0_product_coverage.summary</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_security_acl_d012d681876301101a8ffcc5dabb350a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-17 11:26:23</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
