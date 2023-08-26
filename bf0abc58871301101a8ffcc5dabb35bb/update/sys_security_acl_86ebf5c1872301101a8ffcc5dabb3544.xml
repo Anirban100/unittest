@@ -5,9 +5,11 @@
         <advanced>true</advanced>
         <condition/>
         <description>Allow create for all fields in x_10740_unit_tes_0_product_coverage, if the ACL script returns true.</description>
+        <local_or_existing/>
         <name>x_10740_unit_tes_0_product_coverage.*</name>
         <operation display_value="create">create</operation>
         <script><![CDATA[answer = false;]]></script>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-17 06:58:06</sys_created_on>

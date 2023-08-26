@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_10740_unit_tes_0.UnitTestCoverageManagerBase</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>UnitTestCoverageManagerBase</name>
+        <script><![CDATA[var UnitTestCoverageManagerBase = Class.create();
+UnitTestCoverageManagerBase.LOG_PROPERTY = 'x_10740_unit_tes_0.u_unit_test_coverage.log.level';
+UnitTestCoverageManagerBase.ERROR_LOGGING_ENABLED = gs.getProperty('x_10740_unit_tes_0.u_unit_test_coverage.error.logging.enabled');
+
+UnitTestCoverageManagerBase.prototype = {
+
+    UTC_ATF_SUPPORTED_OBJECTS: {
+        "3f7bb011b9103110d0adbb64e3a1e9a8": {
+            "display_name": "Business Rules",
+            "trigger_table_field": "collection"
+        },
+        "e78bf411b9103110d0adbb64e3a1e99a": {
+            "display_name": "UI Action",
+            "trigger_table_field": "table"
+        }
+    },
+    PRODUCT_TABLE: "x_10740_unit_tes_0_product_stream",
+
+
+
+    initialize: function() {
+
+        this._log = new GSLog(UnitTestCoverageManagerBase.LOG_PROPERTY, this.type);
+        if (this._log.atLevel(GSLog.DEBUG))
+            this._log.debug("[initialize] initialize: " + this.type);
+    },
+
+    canCreateUTCRecord: function(utcGr) {
+        if (gs.hasRole('admin'))
+            return true;
+
+        return false;
+
+    },
+
+    canReadUTCRecord: function(utcGr) {
+        if (gs.hasRole('admin'))
+            return true;
+
+        return false;
+
+    },
+
+    canWriteUTCRecord: function(utcGr) {
+        if (gs.hasRole('admin'))
+            return true;
+
+        return false;
+
+    },
+
+
+    _createUTCRecord: function(productSysId) {
+
+        var productGr = new GlideRecord(this.PRODUCT_TABLE);
+        if (!productGr.get(productSysId)) {
+            this._utcLog("debug", "[_createUTCRecord] productSysId: " + productSysId);
+        }
+
+        var productTablesArr = productGr.getValue("tables_included").split(',');
+
+        this._utcLog("debug", "[_createUTCRecord] productTablesArr: " + productTablesArr);
+
+        for (var productTablesItr in productTablesArr) {
+
+        }
+
+
+    },
+
+
+    _utcLog: function(utcLoggingLevel, msg) {
+        try {
+            var gsLogLevel = "";
+            var logMethod = "";
+
+            if (!UnitTestCoverageManagerBase.ERROR_LOGGING_ENABLED)
+                return;
+
+            switch (utcLoggingLevel) {
+
+                case "debug":
+                    gsLogLevel = GSLog.DEBUG;
+                    logMethod = "debug";
+                    break;
+
+                case "info":
+                    gsLogLevel = GSLog.INFO;
+                    logMethod = "info";
+                    break;
+
+                case "warn":
+                    gsLogLevel = GSLog.WARN;
+                    logMethod = "warn";
+                    break;
+
+                default:
+                    gsLogLevel = GSLog.ERROR;
+                    logMethod = "error";
+
+            }
+
+            if (this._log.atLevel(gsLogLevel))
+                this._log[logMethod](msg);
+
+        } catch (e) {
+            gs.error("x_10740_unit_tes_0_DEBUG: Error caught in '_utcLog' method in 'x_10740_unit_tes_0.UnitTestCoverageManagerBase' Script Include. Error: " + e);
+        }
+    },
+
+    type: 'UnitTestCoverageManagerBase'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-26 14:42:48</sys_created_on>
+        <sys_id>282b93c7473031101175b7f3846d43dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>UnitTestCoverageManagerBase</sys_name>
+        <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
+        <sys_update_name>sys_script_include_282b93c7473031101175b7f3846d43dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-26 17:00:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

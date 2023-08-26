@@ -9,7 +9,6 @@
         <create_access>false</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Product Stream</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -19,18 +18,16 @@
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class/>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-05-07 13:01:29</sys_created_on>
-        <sys_id>d50f2f7987d381101a8ffcc5dabb357a</sys_id>
+        <sys_id>e2932a69477431101175b7f3846d43d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Product Stream</sys_name>
         <sys_package display_value="Unit Testing and Code Coverag" source="x_10740_unit_tes_0">bf0abc58871301101a8ffcc5dabb35bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Unit Testing and Code Coverag">bf0abc58871301101a8ffcc5dabb35bb</sys_scope>
-        <sys_update_name>sys_db_object_d50f2f7987d381101a8ffcc5dabb357a</sys_update_name>
+        <sys_update_name>sys_db_object_e2932a69477431101175b7f3846d43d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-05-07 13:01:29</sys_updated_on>
         <update_access>false</update_access>

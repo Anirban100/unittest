@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Unit Test Configuration" max_length="40" name="x_10740_unit_tes_0_product_coverage" sizeclass="3974" type="collection">
+    <element db_object_id="1a932a69477431101175b7f3846d4378" label="Unit Test Configuration" max_length="40" name="x_10740_unit_tes_0_product_coverage" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Actual vs test class methods mapping" max_length="4000" name="actual_test_methods_map" read_only="true" type="simple_name_values"/>
         <element label="ATF executer" max_length="32" name="atf_executer" reference="sys_atf_step" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return &quot;&quot;; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="ATF tester class" max_length="32" name="atf_tester_class" read_only="true" reference="sys_script_include" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;return &quot;&quot;; // return the calculated value&#10;&#10;})(current);" label="ATF tester class" max_length="32" name="atf_tester_class" read_only="true" reference="sys_script_include" type="reference"/>
         <element dependent="table_name" dependent_on_field="table_name" display="true" label="Configuration record" max_length="32" name="configuration_class" type="document_id" use_dependent_field="true"/>
         <element label="Description" max_length="2000" name="description" type="string_full_utf8"/>
         <element default="true" label="Is unit test" max_length="40" name="is_unit_test" type="boolean"/>
-        <element attributes="target_threshold_colors=0:#71e279;1:#F90707;25:#F9B307;50:#F1F907;65:#E6F7B8;80:#E4FE98;100:#BDFF00&#13;&#10;&#13;&#10;" default="0" label="Methods coverage (%)" max_length="15" name="methods_coverage" read_only="true" type="percent_complete"/>
+        <element attributes="target_threshold_colors=0:#71e279;1:#F90707;25:#F9B307;50:#F1F907;65:#E6F7B8;80:#E4FE98;100:#BDFF00" default="0" label="Methods coverage (%)" max_length="15" name="methods_coverage" read_only="true" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Priority" max_length="40" name="priority" type="integer"/>
         <element label="Product" max_length="32" name="product" reference="x_10740_unit_tes_0_product_stream" reference_floats="true" type="reference"/>
         <element label="Summary" max_length="100" name="summary" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;if(current.is_unit_test)&#13;&#10;&#9;return &quot;sys_script_include&quot;;&#13;&#10;&#13;&#10;})(current);" label="Configuration table name" max_length="80" name="table_name" type="table_name"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;if(current.is_unit_test)&#10;&#9;return &quot;sys_script_include&quot;;&#10;&#10;})(current);" label="Configuration table name" max_length="80" name="table_name" type="table_name"/>
         <index name="index">
-            <element name="product"/>
+            <element name="atf_executer"/>
         </index>
         <index name="index2">
             <element name="atf_tester_class"/>
@@ -23,7 +23,7 @@
             <element name="configuration_class"/>
         </index>
         <index name="index4">
-            <element name="atf_executer"/>
+            <element name="product"/>
         </index>
     </element>
 </database>
